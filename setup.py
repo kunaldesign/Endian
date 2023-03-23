@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "Endian",
-    version = "0.0.3",
+    version = "0.0.4",
     author = "kunal hedaoo ",
     author_email = "kunalhedaoo25@gmail.com",
     description = "Change string to little endian & big endian",
