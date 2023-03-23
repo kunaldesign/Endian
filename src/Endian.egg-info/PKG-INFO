@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: Endian
+Version: 0.0.3
+Summary: Change string to little endian & big endian
+Home-page: https://github.com/kunaldesign/Endian
+Author: kunal hedaoo 
+Author-email: kunalhedaoo25@gmail.com
+Project-URL: Bug Tracker, https://github.com/kunaldesign/Endian/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Endian String Convert
+
+Change string to little endian & big endian
+
+
+
+## Badges
+
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+[![PyPI](https://img.shields.io/pypi/v/package.svg?style=flat-square)](https://pypi.python.org/pypi/package)
+
+[![PyPI](https://img.shields.io/pypi/l/package.svg?style=flat-square)](https://pypi.python.org/pypi/package)
+
+## Installation
+
+Install python libary using pip3
+
+```bash
+  pip3 install module_name
+```
+OR
+
+```bash
+python3 -m pip install module_name
+```
+## Authors
+
+- [@kunaldesign](https://github.com/kunaldesign) 🥇
+- [@s-rebel](https://github.com/s-rebel) 🥈
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Support
+
+For support, email kunalhedaoo25@gmail.com, aglaweshubham17@gmail.com
+
+
+## Features
+
+- Convert little endian to big endian
+- Convert big endian to little endian
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+

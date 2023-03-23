@@ -1,0 +1,17 @@
+{
+    "gitConfigUser.profiles": [
+        {
+            "label": "work",
+            "email": "kunalh@techspawn.co",
+            "userName": "kunalh",
+            "selected": true
+        }
+    ],
+    "[markdown]": {
+        "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true,
+        },
+    }
+}

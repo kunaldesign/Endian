@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/Endian/__init__.py
+src/Endian/endian.py
+src/Endian.egg-info/PKG-INFO
+src/Endian.egg-info/SOURCES.txt
+src/Endian.egg-info/dependency_links.txt
+src/Endian.egg-info/top_level.txt
