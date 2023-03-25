@@ -68,7 +68,7 @@
 <table>
 <tr>
 <td>
-  Change string to little endian & big endian
+  Hexadecimal operations and the byte operations
 </td>
 </tr>
 </table>
