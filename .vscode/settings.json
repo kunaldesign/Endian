@@ -2,8 +2,14 @@
     "gitConfigUser.profiles": [
         {
             "label": "work",
-            "email": "kunalh@techspawn.co",
             "userName": "kunalh",
+            "email": "kunalh@techspawn.co",
+            "selected": false
+        },
+        {
+            "label": "kunaldesgin",
+            "email": "kunalhedaoo25@gmail.com",
+            "userName": "kunaldesgin",
             "selected": true
         }
     ],
