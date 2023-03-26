@@ -60,6 +60,8 @@
 - [Contributing 🗯️](#contributing-️)
 - [Support ⛑️](#support-️)
 - [Team 👩‍🏭](#team-)
+  - [| Shubham Aglawe                                                                                         | Kunal Hedaoo                                                          |](#-shubham-aglawe------------------------------------------------------------------------------------------kunal-hedaoo----------------------------------------------------------)
+- [Donation 💸](#donation-)
 - [License 📜](#license-)
 
 ---
@@ -200,8 +202,13 @@ OR
  [![Shubham Aglawe](https://avatars.githubusercontent.com/u/95236180?v=4)](https://github.com/s-rebel) | [![Kunal Hedaoo](https://avatars.githubusercontent.com/u/49153579?v=4)](https://github.com/kunaldesign) |
 ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
 | [Shubham Aglawe](https://github.com/s-rebel)                                                                                         | [Kunal Hedaoo](https://github.com/kunaldesign)                                                          |
+---
+# Donation 💸
+
+<img alt="Donation" src="static/images/Endian%20Donation.png" width="320px" height="320px" />
 
 ---
+
 # License 📜
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [Kunal Hedaoo](https://github.com/nhn).
