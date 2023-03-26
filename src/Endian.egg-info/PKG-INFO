@@ -218,7 +218,6 @@ Description: <p align=""center>
         ---
 Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning
-Classifier: Topic :: Endian :: ByteFormation
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
