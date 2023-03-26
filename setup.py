@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "Endian",
-    version = "0.0.3",
+    version = "0.0.5",
     author = "kunal hedaoo ",
     author_email = "kunalhedaoo25@gmail.com",
     description = "Change string to little endian & big endian",
@@ -16,9 +16,11 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/kunaldesign/Endian/issues", 
     },
     classifiers = [
+        "Development Status :: 1 - Planning",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+        
     ],
     package_dir = {"": "src"},
     packages = setuptools.find_packages(where="src"),

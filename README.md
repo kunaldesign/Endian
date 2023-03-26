@@ -60,6 +60,8 @@
 - [Contributing 🗯️](#contributing-️)
 - [Support ⛑️](#support-️)
 - [Team 👩‍🏭](#team-)
+  - [| Shubham Aglawe                                                                                         | Kunal Hedaoo                                                          |](#-shubham-aglawe------------------------------------------------------------------------------------------kunal-hedaoo----------------------------------------------------------)
+- [Donation 💸](#donation-)
 - [License 📜](#license-)
 
 ---
@@ -117,6 +119,20 @@ OR
 - Install python libary using pip3
 
 ```python
+  pip3 install -i https://test.pypi.org/simple/ Endian
+```
+
+OR
+
+```python
+  python3 -m pip install -i https://test.pypi.org/simple/ Endian
+```
+
+### For installation from main repo
+
+- Install python libary using pip3
+
+```python
   pip3 install Endian
 ```
 
@@ -137,6 +153,28 @@ OR
 - calling function
 ```python
   big_to_little_str("ASFDQW")
+```
+
+#### to change string little to big 
+
+- import libary in the python  
+```python
+  from Endian.endian import little_to_big_str
+```
+- calling function
+```python
+  little_to_big_str("QWFDAS")
+```
+
+#### to change decimal to hexadecimal string
+
+- import libary in the python  
+```python
+  from Endian.endian import endian_hex_str
+```
+- calling function
+```python
+  endian_hex_str(1234)
 ```
 
 #### to change string little to big 
@@ -202,6 +240,13 @@ OR
 | [Shubham Aglawe](https://github.com/s-rebel)                                                                                         | [Kunal Hedaoo](https://github.com/kunaldesign)                                                          |
 
 ---
+# Donation 💸
+
+<img alt="Donation" src="static/images/Endian%20Donation.png" width="320px" height="320px" />
+
+
+---
+
 # License 📜
 
 This software is licensed under the [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE) © [Kunal Hedaoo](https://github.com/nhn).
