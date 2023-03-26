@@ -7,7 +7,8 @@
   <br>
 </h1>
 
-[![Issuse]( https://img.shields.io/github/issues/kunaldesign/Endian)](https://github.com/kunaldesign/Endian/issues)
+![GitHub issues](https://img.shields.io/github/issues-raw/kunaldesign/Endian?color=%23FC2947)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/kunaldesign/Endian?color=%237149C6&style=plastic)
 [![Fork](https://img.shields.io/github/forks/kunaldesign/Endian)](https://github.com/kunaldesign/Endian)
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](/CONTRIBUTING.md)
 [![stars](https://img.shields.io/github/stars/kunaldesign/Endian)](https://github.com/kunaldesign/Endian)
@@ -22,11 +23,6 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
 <!-- [![html](https://forthebadge.com/images/badges/validated-html5.svg)](/index.html) -->
-
-
-
-
-
 
 </p>
 
