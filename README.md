@@ -1,15 +1,11 @@
 <p align=""center>
 
-<center>
+
 <h1>
   <br>
   Endian String Convert
   <br>
 </h1>
-
-</center>
-
-<center>
 
 [![Issuse]( https://img.shields.io/github/issues/kunaldesign/Endian)](https://github.com/kunaldesign/Endian/issues)
 [![Fork](https://img.shields.io/github/forks/kunaldesign/Endian)](https://github.com/kunaldesign/Endian)
@@ -17,18 +13,20 @@
 [![stars](https://img.shields.io/github/stars/kunaldesign/Endian)](https://github.com/kunaldesign/Endian)
 [![License](https://img.shields.io/github/license/kunaldesign/Endian)](/LICENSE)
 [![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fkunaldesign%2FEndian)](https://twitter.com/kunalhedaoo25)
+<!-- [![PyPI](https://img.shields.io/pypi/v/Endian?style=plastic)]() -->
 
-[![developer](https://forthebadge.com/images/badges/built-by-developers.svg)](/CONTRIBUTING.md)
 
-[![html](https://forthebadge.com/images/badges/validated-html5.svg)](/index.html)
-
+[![Check it out](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 [![license](https://forthebadge.com/images/badges/open-source.svg)](/LICENSE)
+[![developer](https://forthebadge.com/images/badges/built-by-developers.svg)](/CONTRIBUTING.md)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+<!-- [![html](https://forthebadge.com/images/badges/validated-html5.svg)](/index.html) -->
 
 
 
-[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](/style.css)
 
-</center>
+
 
 </p>
 
@@ -51,8 +49,13 @@
 - [Prerequisites 📐](#prerequisites-)
 - [System Support 🌏](#system-support-)
 - [Usage 🔄](#usage-)
-    - [For installation](#for-installation)
+    - [For installation from testing repo](#for-installation-from-testing-repo)
+    - [For installation from main repo](#for-installation-from-main-repo)
     - [For Using Libary](#for-using-libary)
+      - [to change string big to little](#to-change-string-big-to-little)
+      - [to change string little to big](#to-change-string-little-to-big)
+      - [to change decimal to hexadecimal string](#to-change-decimal-to-hexadecimal-string)
+      - [to create two's complemate of the hexadecimal string](#to-create-twos-complemate-of-the-hexadecimal-string)
 - [Credits 🏅](#credits-)
 - [Contributing 🗯️](#contributing-️)
 - [Support ⛑️](#support-️)
@@ -65,7 +68,7 @@
 <table>
 <tr>
 <td>
-  Change string to little endian & big endian
+  Hexadecimal operations and the byte operations
 </td>
 </tr>
 </table>
@@ -95,20 +98,37 @@ The things you need before go to website.
 - Installation and uses of the libary.
 
 
-### For installation
+### For installation from testing repo
 
 - Install python libary using pip3
 
-```bash
-  pip3 install module_name
+```python
+  pip3 install -i https://test.pypi.org/simple/ Endian
 ```
+
 OR
 
-```bash
-python3 -m pip install module_name
+```python
+  python3 -m pip install -i https://test.pypi.org/simple/ Endian
+```
+
+### For installation from main repo
+
+- Install python libary using pip3
+
+```python
+  pip3 install Endian
+```
+
+OR
+
+```python
+  python3 -m pip install Endian
 ```
 
 ### For Using Libary
+
+#### to change string big to little 
 
 - import libary in the python  
 ```python
@@ -116,10 +136,40 @@ python3 -m pip install module_name
 ```
 - calling function
 ```python
-big_to_little_str("ASFDQW")
+  big_to_little_str("ASFDQW")
 ```
 
+#### to change string little to big 
 
+- import libary in the python  
+```python
+  from Endian.endian import little_to_big_str
+```
+- calling function
+```python
+  little_to_big_str("QWFDAS")
+```
+#### to change decimal to hexadecimal string
+
+- import libary in the python  
+```python
+  from Endian.endian import endian_hex_str
+```
+- calling function
+```python
+  endian_hex_str(1234)
+```
+
+#### to create two's complemate of the hexadecimal string
+
+- import libary in the python  
+```python
+  from Endian.endian import twos_com_str
+```
+- calling function
+```python
+  twos_com_str("QWFDAS")
+```
 
 # Credits 🏅
 
@@ -149,7 +199,7 @@ big_to_little_str("ASFDQW")
 
  [![Shubham Aglawe](https://avatars.githubusercontent.com/u/95236180?v=4)](https://github.com/s-rebel) | [![Kunal Hedaoo](https://avatars.githubusercontent.com/u/49153579?v=4)](https://github.com/kunaldesign) |
 ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| [Devid Beragi](https://github.com/duggu1706)                                                          | [Aakash Yadav](https://github.com/aakashWebs)                                                          | [Kunal Hedaoo](https://github.com/kunaldesign)                                                          |
+| [Shubham Aglawe](https://github.com/s-rebel)                                                                                         | [Kunal Hedaoo](https://github.com/kunaldesign)                                                          |
 
 ---
 # License 📜
